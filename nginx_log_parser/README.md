@@ -19,6 +19,16 @@ docker build --tag "nginx_log" .
 docker run "nginx_log"
 ```
 
+## Run tests
+```bash
+python manage.py test
+```
+
+
+## Routes
+- `/admin/` - Django admin panel
+- /swagger/ - Swagger documentation
+
 
 ## Django commands
 - Parse nginx log files from Google Drive url and store the parsed data in the database. Example:
