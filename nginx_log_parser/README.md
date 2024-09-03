@@ -27,7 +27,7 @@ python manage.py test
 
 ## Routes
 - `/admin/` - Django admin panel
-- /swagger/ - Swagger documentation
+- `/swagger/` - Swagger documentation
 
 
 ## Django commands
